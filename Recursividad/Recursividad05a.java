@@ -1,16 +1,4 @@
-/* UNEFA-NPC, LENGUAJE DE PROGRAMACI覰 III
- * ACTIVIDAD 10%, SEGUNDO CORTE, QUINTO EJERCICIO-A.
- * RECURSIVIDAD.
- * 26/04/2021
- * 
- * INTEGRANTES:
- * DIEGO PARRA, 26.671.334
- * KATHERINE GARC虯, 26.696.857
- * GRUPO #4
- * 
- * PROFESORA: YELMIN PEREZ
- * 
- * 
+/*
  * Recursividad05a.java*/
 
 //05b. Determinar los primeros 4 numeros FACTORION
@@ -33,7 +21,7 @@ public class Recursividad05a {
 		int auxiliar;
 		
 				
-		System.out.println("==QUINTO EJERCICIO A==\nIntroduzca una opci髇: \n");
+		System.out.println("==QUINTO EJERCICIO A==\nIntroduzca una opci贸n: \n");
 		
 	while (eleccion != 3) { 	
 		System.out.println("-1. (ENUNCIADO) Iterar busqueda de numeros FACTORION hasta 4.");
@@ -66,11 +54,11 @@ public class Recursividad05a {
 }
 	
 	//==================================================
-	//Revisar si el numero es factorial con recursi髇
+	//Revisar si el numero es factorial con recursi贸n
 	//==================================================
 	 int factorial(int numero) {//INIT factorial
 		
-		//Recursi髇
+		//Recursi贸n
 		if(numero >= 1)return numero*factorial(numero-1);
 		else return 1;
 	} //FIN factorial
@@ -93,18 +81,18 @@ public class Recursividad05a {
 	}//fin esFACTORION
 	
 	//========================================================================
-	//Sumar d韌itos para el c醠culo final con recursi髇 y llamada a funciones
+	//Sumar d铆gitos para el c谩lculo final con recursi贸n y llamada a funciones
 	//========================================================================
 	 int sumarDigitos(int numero) {//init sumarDigitos
 		if (numero == 0)return 0;
 		
-		//Recursi髇
+		//Recursi贸n
 		return(factorial(numero % 10) + sumarDigitos(numero / 10));
 		
 	}//fin sumarDigitos
 	
 	//=================================
-	//Iniciar el proceso de impresi髇.
+	//Iniciar el proceso de impresi贸n.
 	//=================================
 	void iniciarProceso(int iteraciones) {
 				this.numero = 0;
