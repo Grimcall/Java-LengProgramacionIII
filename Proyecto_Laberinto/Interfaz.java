@@ -1,15 +1,4 @@
-/* UNEFA-NPC, LENGUAJE DE PROGRAMACIÓN III
- * PROYECTO 25%, CUARTO CORTE 
- * LABERINTO CON ALGORITMO DE BUSQUEDA PROFUNDA.
- * 09/07/2021
- * 
- * INTEGRANTES:
- * DIEGO PARRA, 26.671.334
- * KATHERINE GARCÍA, 26.696.857
- * GRUPO #4
- * 
- * PROFESORA: YELMIN PEREZ
- * 
+/*
  * 
  * Interfaz.java*/
 
@@ -29,7 +18,7 @@ public class Interfaz extends JFrame{
 	 */
 	private static final long serialVersionUID = -2575226178313033719L;
 	
-	//Declaracion del laberinto. A través de este atributo, le daremos forma al laberinto.
+	//Declaracion del laberinto. A travÃ©s de este atributo, le daremos forma al laberinto.
 	//1 = Muro
 	//0 = Camino
 	//9 = Final
@@ -61,7 +50,7 @@ private int caminoIndice;
 	
 //Apertura de interfaz.
 public Interfaz(){
-	setTitle("LaberintoV1.1—ParraDiegoGRUPO4—UNEFA");
+	setTitle("LaberintoV1.1â€”ParraDiegoGRUPO4â€”UNEFA");
 	setSize(1280, 720);
 	setLocationRelativeTo(null);
 	setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -98,7 +87,7 @@ for (int fila = 0; fila < laberinto.length; fila++) {
 			}
 		} 
 
-//Pinta únicamente el camino correcto en verde.
+//Pinta Ãºnicamente el camino correcto en verde.
 //Utilizado mayormente por propositos de prueba.
 		for( int c = 0 ; c < camino.size(); c += 2) {
 			int caminoX = camino.get(c);
@@ -116,7 +105,7 @@ for (int fila = 0; fila < laberinto.length; fila++) {
 		
 	}	
 
-//Funcion definida para moverse a través del laberinto.
+//Funcion definida para moverse a travÃ©s del laberinto.
 //La tecla derecha en el teclado acerca el trazador a la salida.
 //Izquierda, le aleja.
 	@Override
