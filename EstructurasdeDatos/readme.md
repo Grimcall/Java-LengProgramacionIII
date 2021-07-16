@@ -7,4 +7,3 @@ MCD(x,y) = MCD(x-y,y) si x >=y = MCD(x,y-x) si x <y = x si y=0 = y si x=0
 6) Elabore un programa que determine todos los números primos CIRCULARES de cinco dígitos.
 7) Elabore un progrema que determine los primeros n números de Kaprekar. (N <= 10)
 8) Desarolle un programa que dado un valor N, donde N <= 10, determine e imprima todos los números narcisistas de N dígitos, en caso de no existir ninguno imprima el mensaje correspondiente.
-9) 
