@@ -1,23 +1,11 @@
-/* UNEFA-NPC, LENGUAJE DE PROGRAMACI”N III
- * ACTIVIDAD 15%, SEGUNDO CORTE, SEGUNDO EJERCICIO.
- * EXCEPCIONES.
- * 14/05/2021
- * 
- * INTEGRANTES:
- * DIEGO PARRA, 26.671.334
- * KATHERINE GARCÕA, 26.696.857
- * GRUPO #4
- * 
- * PROFESORA: YELMIN PEREZ
- * 
- * 
+/*
  * Excepciones02.java*/
 
-/*02.	Escribir un programa llamada Calculadora que realice las funciones tÌpicas de una calculadora. 
- * Para ello pedir· al usuario tres valores: operaciÛn (+,-,*,/), operando1, operando2 y a partir de ellos muestre el resultado de la operaciÛn. 
- * Cuando el usuario introduzca una Z como valor de la operaciÛn el programa parar·, si se introduce 
- * cualquier otro car·cter se debe producir una excepciÛn definida por el usuario imprimiendo un mensaje de error. 
- * Se deber·n intentar utilizar todos los mecanismos de tratamiento de excepciones dados en teorÌa.
+/*02.	Escribir un programa llamada Calculadora que realice las funciones t√≠picas de una calculadora. 
+ * Para ello pedir√° al usuario tres valores: operaci√≥n (+,-,*,/), operando1, operando2 y a partir de ellos muestre el resultado de la operaci√≥n. 
+ * Cuando el usuario introduzca una Z como valor de la operaci√≥n el programa parar√°, si se introduce 
+ * cualquier otro car√°cter se debe producir una excepci√≥n definida por el usuario imprimiendo un mensaje de error. 
+ * Se deber√°n intentar utilizar todos los mecanismos de tratamiento de excepciones dados en teor√≠a.
 */
 import java.util.Scanner;
 
