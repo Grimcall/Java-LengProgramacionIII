@@ -1,16 +1,4 @@
-/* UNEFA-NPC, LENGUAJE DE PROGRAMACIÓN III
- * ACTIVIDAD 10%, SEGUNDO CORTE, QUINTO EJERCICIO-C.
- * RECURSIVIDAD.
- * 26/04/2021
- * 
- * INTEGRANTES:
- * DIEGO PARRA, 26.671.334
- * KATHERINE GARCÍA, 26.696.857
- * GRUPO #4
- * 
- * PROFESORA: YELMIN PEREZ
- * 
- * 
+/* 
  * Recursividad05c.java*/
 
 //05c. Determinar los primeros numeros KAPREKAR n <= 10.
@@ -34,7 +22,7 @@ public class Recursividad05c {
 		int auxiliar;
 		
 				
-		System.out.println("==QUINTO EJERCICIO C==\nIntroduzca una opción: \n");
+		System.out.println("==QUINTO EJERCICIO C==\nIntroduzca una opciÃ³n: \n");
 		
 	while (eleccion != 3) { 	
 		System.out.println("-1. (ENUNCIADO) Iterar busqueda de numeros de Kaprekar n<=10.");
