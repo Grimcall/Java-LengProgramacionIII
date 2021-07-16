@@ -1,23 +1,11 @@
-/* UNEFA-NPC, LENGUAJE DE PROGRAMACIÓN III
- * PROYECTO 25%, CUARTO CORTE 
- * LABERINTO CON ALGORITMO DE BUSQUEDA PROFUNDA.
- * 09/07/2021
- * 
- * INTEGRANTES:
- * DIEGO PARRA, 26.671.334
- * KATHERINE GARCÍA, 26.696.857
- * GRUPO #4
- * 
- * PROFESORA: YELMIN PEREZ
- * 
- * 
+/*
  * algoritmoBusquedaProfunda.java*/
 import java.util.List;
 
 public class algoritmoBusquedaProfunda {
 	
-//Algoritmo de busqueda profunda con recursión para conseguir el camino.
-//Utiliza la lógica utilizada en Teoríga de Grafos utilizando el algoritmo
+//Algoritmo de busqueda profunda con recursiÃ³n para conseguir el camino.
+//Utiliza la lÃ³gica utilizada en TeorÃ­ga de Grafos utilizando el algoritmo
 //de busqueda profunda.
 	
 		public static boolean buscarCamino(int [][] laberinto, 
