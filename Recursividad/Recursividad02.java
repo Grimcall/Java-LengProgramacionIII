@@ -1,16 +1,4 @@
-/* UNEFA-NPC, LENGUAJE DE PROGRAMACIÓN III
- * ACTIVIDAD 10%, SEGUNDO CORTE, SEGUNDO EJERCICIO.
- * RECURSIVIDAD.
- * 26/04/2021
- * 
- * INTEGRANTES:
- * DIEGO PARRA, 26.671.334
- * KATHERINE GARCÍA, 26.696.857
- * GRUPO #4
- * 
- * PROFESORA: YELMIN PEREZ
- * 
- * 
+/* 
  * Recursividad02.java*/
 
 //02. Escribir una funcion recursiva que imprima
