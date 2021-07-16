@@ -1,19 +1,8 @@
-/* UNEFA-NPC, LENGUAJE DE PROGRAMACIÓN III
- * ACTIVIDAD 10%, SEGUNDO CORTE, QUINTO EJERCICIO-B.
- * RECURSIVIDAD.
- * 26/04/2021
- * 
- * INTEGRANTES:
- * DIEGO PARRA, 26.671.334
- * KATHERINE GARCÍA, 26.696.857
- * GRUPO #4
- * 
- * PROFESORA: YELMIN PEREZ
- * 
+/* 
  * 
  * Recursividad05b.java*/
 
-//05b. Determinar todos los numeros primos circulares de cinco dígitos.
+//05b. Determinar todos los numeros primos circulares de cinco dÃ­gitos.
 
 import java.util.Scanner;
 
@@ -34,7 +23,7 @@ public class Recursividad05b {
 		int auxiliar;
 		
 				
-		System.out.println("==QUINTO EJERCICIO B==\nIntroduzca una opción: \n");
+		System.out.println("==QUINTO EJERCICIO B==\nIntroduzca una opciÃ³n: \n");
 		
 	while (eleccion != 4) {//init While 	
 		System.out.println("-1. (ENUNCIADO) Iterar busqueda de primos para cinco digitos.");
@@ -78,7 +67,7 @@ public class Recursividad05b {
 	
 	
 	//==============================================
-	//Verificar si el numero es primo con recursión.
+	//Verificar si el numero es primo con recursiÃ³n.
 	//==============================================
 		 boolean esPrimo(long num, long div){
 			if(num <= 2)return (num == 2) ? true : false;
