@@ -1,20 +1,8 @@
-/* UNEFA-NPC, LENGUAJE DE PROGRAMACI”N III
- * ACTIVIDAD 10%, SEGUNDO CORTE, CUARTO EJERCICIO.
- * RECURSIVIDAD.
- * 26/04/2021
- * 
- * INTEGRANTES:
- * DIEGO PARRA, 26.671.334
- * KATHERINE GARCÕA, 26.696.857
- * GRUPO #4
- * 
- * PROFESORA: YELMIN PEREZ
- * 
- * 
+/*
  * Recursividad04.java*/
 
 //04. Encontrar el MCD entre dos numeros usando la
-//definiciÛn matem·tica en la guÌa.
+//definici√≥n matem√°tica en la gu√≠a.
 
 import java.util.Scanner;
 
