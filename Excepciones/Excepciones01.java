@@ -1,20 +1,9 @@
-/* UNEFA-NPC, LENGUAJE DE PROGRAMACIÓN III
- * ACTIVIDAD 15%, SEGUNDO CORTE, PRIMER EJERCICIO.
- * EXCEPCIONES.
- * 14/05/2021
- * 
- * INTEGRANTES:
- * DIEGO PARRA, 26.671.334
- * KATHERINE GARCÍA, 26.696.857
- * GRUPO #4
- * 
- * PROFESORA: YELMIN PEREZ
- * 
+/*
  * 
  * Excepciones01.java*/
 
 /*01.	Escribir un programa que permita calcular la media de unas calificaciones de examen,
-     contemplando todos sus posibles errores en tiempo de ejecución */
+     contemplando todos sus posibles errores en tiempo de ejecuciÃ³n */
 
 import java.util.Scanner;
 
