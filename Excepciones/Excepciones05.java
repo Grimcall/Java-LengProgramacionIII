@@ -1,19 +1,7 @@
-/* UNEFA-NPC, LENGUAJE DE PROGRAMACI”N III
- * ACTIVIDAD 15%, SEGUNDO CORTE, QUINTO EJERCICIO.
- * EXCEPCIONES.
- * 14/05/2021
- * 
- * INTEGRANTES:
- * DIEGO PARRA, 26.671.334
- * KATHERINE GARCÕA, 26.696.857
- * GRUPO #4
- * 
- * PROFESORA: YELMIN PEREZ
- * 
- * 
+/* 
  * Excepciones05.java*/
 
-/*Sistema bancario b·sico. */
+/*Sistema bancario b√°sico. */
 import java.util.Scanner;
 
 
@@ -253,7 +241,7 @@ public class Excepciones05 {
 			
 			setSaldo(getSaldo() - monto);		
 		
-			if(getSaldo() < 0)throw new MontoInsuficienteException("El saldo en su cuenta quedÛ en negativo. Esta operacion es invalida.");
+			if(getSaldo() < 0)throw new MontoInsuficienteException("El saldo en su cuenta qued√≥ en negativo. Esta operacion es invalida.");
 			System.out.print("Su saldo es: $" + getSaldo() + "\n");
 
 		
