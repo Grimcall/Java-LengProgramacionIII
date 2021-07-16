@@ -1,17 +1,5 @@
 package ImplementacionManual;
-/* UNEFA-NPC, LENGUAJE DE PROGRAMACIÓN III
- * ACTIVIDAD 10%, TERCER CORTE, PRIMER EJERCICIO.
- * ESTRUCTURAS DE DATOS.
- * 04/06/2021
- * 
- * INTEGRANTES:
- * DIEGO PARRA, 26.671.334
- * KATHERINE GARCÍA, 26.696.857
- * GRUPO #4
- * 
- * PROFESORA: YELMIN PEREZ
- * 
- * 
+/*
  * Estructuras01.java*/
 
 /*01. Suma, resta, multiplicacion y division de polinoimos con lista enlazada doble circular. */
