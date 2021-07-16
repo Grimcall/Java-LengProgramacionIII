@@ -1,17 +1,5 @@
 package ImplementacionManual;
-/* UNEFA-NPC, LENGUAJE DE PROGRAMACI”N III
- * ACTIVIDAD 10%, TERCER CORTE, TERCER EJERCICIO.
- * ESTRUCTURAS DE DATOS.
- * 04/06/2021
- * 
- * INTEGRANTES:
- * DIEGO PARRA, 26.671.334
- * KATHERINE GARCÕA, 26.696.857
- * GRUPO #4
- * 
- * PROFESORA: YELMIN PEREZ
- * 
- * 
+/* 
  * Estructuras03.java*/
 
 /*03. Sistema de estacionamiento por pilas. */
@@ -54,7 +42,7 @@ class Pila {
 	}
 	
 	String desapilar() {
-		if(estaVacia())return "La pila est· vacia. ";
+		if(estaVacia())return "La pila est√° vacia. ";
 	
 			String elemento = arreglo[tope--];
 			return elemento;
@@ -141,7 +129,7 @@ public class Estructuras03 {
 				case "E": 
 					
 					if(registro.controlEntrada.estaLlena()) {
-						System.out.println("El estacionamiento est· lleno! Retire un vehiculo en intente de nuevo. \n");
+						System.out.println("El estacionamiento est√° lleno! Retire un vehiculo en intente de nuevo. \n");
 						break;
 					}
 					
@@ -193,7 +181,7 @@ public class Estructuras03 {
 			
 			break; 
 		
-			//Finalizar dÌa
+			//Finalizar d√≠a
 		case 4: 
 			System.out.println("==PLACAS==");
 			registro.placa.mostrar();
