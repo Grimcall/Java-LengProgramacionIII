@@ -1,16 +1,4 @@
-/* UNEFA-NPC, LENGUAJE DE PROGRAMACIÓN III
- * ACTIVIDAD 10%, SEGUNDO CORTE, QUINTO EJERCICIO-D.
- * RECURSIVIDAD.
- * 26/04/2021
- * 
- * INTEGRANTES:
- * DIEGO PARRA, 26.671.334
- * KATHERINE GARCÍA, 26.696.857
- * GRUPO #4
- * 
- * PROFESORA: YELMIN PEREZ
- * 
- * 
+/* 
  * Recursividad05d.java*/
 
 //05d. Determinar los primeros numeros Narcisista n <= 10.
@@ -33,7 +21,7 @@ public class Recursividad05d {
 		int eleccion = 0;
 		int auxiliar;		
 				
-		System.out.println("==QUINTO EJERCICIO D==\nIntroduzca una opción: \n");
+		System.out.println("==QUINTO EJERCICIO D==\nIntroduzca una opciÃ³n: \n");
 		
 	while (eleccion != 3) {//init while 	
 		
@@ -62,7 +50,7 @@ public class Recursividad05d {
 		
 		} //fin switch
 		
-	}//fin while menú.
+	}//fin while menÃº.
 	
 }//fin main.
 	
@@ -119,7 +107,7 @@ public class Recursividad05d {
 				}
 				numero++;
 				
-		}if(verificacion == 0)System.out.println("No se encontraron numeros narcisistas de dígitos N:" + cantidadDigitos + "\n");
+		}if(verificacion == 0)System.out.println("No se encontraron numeros narcisistas de dÃ­gitos N:" + cantidadDigitos + "\n");
 	}
 }//fin clase Recursividad05c
 	
