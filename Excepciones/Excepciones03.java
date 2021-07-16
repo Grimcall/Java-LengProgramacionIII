@@ -1,19 +1,7 @@
-/* UNEFA-NPC, LENGUAJE DE PROGRAMACIÓN III
- * ACTIVIDAD 15%, SEGUNDO CORTE, TERCER EJERCICIO.
- * EXCEPCIONES.
- * 14/05/2021
- * 
- * INTEGRANTES:
- * DIEGO PARRA, 26.671.334
- * KATHERINE GARCÍA, 26.696.857
- * GRUPO #4
- * 
- * PROFESORA: YELMIN PEREZ
- * 
- * 
+/* 
  * Excepciones03.java*/
 
-//03. Calcular las raices de una ecuación de 2do grado
+//03. Calcular las raices de una ecuaciÃ³n de 2do grado
 import java.util.Scanner;
 
 public class Excepciones03 {
