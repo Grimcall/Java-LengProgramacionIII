@@ -1,17 +1,5 @@
 package ImplementacionManual;
-/* UNEFA-NPC, LENGUAJE DE PROGRAMACIÓN III
- * ACTIVIDAD 10%, TERCER CORTE, SEGUNDO EJERCICIO.
- * ESTRUCTURAS DE DATOS.
- * 04/06/2021
- * 
- * INTEGRANTES:
- * DIEGO PARRA, 26.671.334
- * KATHERINE GARCÍA, 26.696.857
- * GRUPO #4
- * 
- * PROFESORA: YELMIN PEREZ
- * 
- * 
+/*
  * Estructuras02.java*/
 
 /*02. Sistema de estacionamiento por colas. */
@@ -128,7 +116,7 @@ public class Estructuras02 {
 		while (eleccion != 4) {
 		System.out.println("1. Encolar Carro");
 		System.out.println("2. Desencolar Carro");
-		System.out.println("3. Finalizra día.");
+		System.out.println("3. Finalizra dÃ­a.");
 		System.out.println("4. Salir");
 		eleccion = entrada.nextInt();
 		
@@ -152,10 +140,10 @@ public class Estructuras02 {
 			System.out.print("Introduzca la hora de entrada del vehiculo: ");
 			registro.horaEntrada.encolar(entrada.next());
 			
-			System.out.print("Introduzca el nombre del dueño del vehiculo: ");
+			System.out.print("Introduzca el nombre del dueÃ±o del vehiculo: ");
 			registro.nombre.encolar(entrada.next());
 			
-			System.out.print("Introduzca el año del vehiculo: ");
+			System.out.print("Introduzca el aÃ±o del vehiculo: ");
 			registro.year.encolar(entrada.next());
 			
 			System.out.println("ENCOLADO EXITOSAMENTE: ");
@@ -163,8 +151,8 @@ public class Estructuras02 {
 			System.out.println("-Modelo: " + registro.modelo.retornarRear());
 			System.out.println("-Color: " + registro.color.retornarRear());
 			System.out.println("-Hora de entrada: " + registro.horaEntrada.retornarRear());
-			System.out.println("-Dueño: " + registro.nombre.retornarRear());
-			System.out.println("-Año: " + registro.year.retornarRear());
+			System.out.println("-DueÃ±o: " + registro.nombre.retornarRear());
+			System.out.println("-AÃ±o: " + registro.year.retornarRear());
 			entradas+=1;
 			
 			break;
@@ -173,7 +161,7 @@ public class Estructuras02 {
 		case 2: 
 			
 			if(registro.placa.estaVacia(registro.placa)) {
-				System.out.println("La cola se encuentra vacía. Intente de nuevo. ");
+				System.out.println("La cola se encuentra vacÃ­a. Intente de nuevo. ");
 				break;}  
 			
 			System.out.print("Cuantas horas transcurridas? ");
@@ -184,8 +172,8 @@ public class Estructuras02 {
 			System.out.println("-Modelo: " + registro.modelo.desencolar());
 			System.out.println("-Color: " + registro.color.desencolar());
 			System.out.println("-Hora de entrada: " + registro.horaEntrada.desencolar());
-			System.out.println("-Dueño: " + registro.nombre.desencolar());
-			System.out.println("-Año: " + registro.year.desencolar());
+			System.out.println("-DueÃ±o: " + registro.nombre.desencolar());
+			System.out.println("-AÃ±o: " + registro.year.desencolar());
 			
 		
 			System.out.println("Debe pagar: $" + horasTranscurridas*precioPorHora);
@@ -194,7 +182,7 @@ public class Estructuras02 {
 			
 			break;
 		
-		//Finalizar día.
+		//Finalizar dÃ­a.
 		case 3: System.out.println("-Total recaudado: $" + recaudado);
 				System.out.println("-Cantidad de salidas: " + salidas);
 				System.out.println("-Cantidad de entradas: " + entradas);
