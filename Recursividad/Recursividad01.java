@@ -1,19 +1,8 @@
-/* UNEFA-NPC, LENGUAJE DE PROGRAMACIÓN III
- * ACTIVIDAD 10%, SEGUNDO CORTE, PRIMER EJERCICIO.
- * RECURSIVIDAD.
- * 26/04/2021
- * 
- * INTEGRANTES:
- * DIEGO PARRA, 26.671.334
- * KATHERINE GARCÍA, 26.696.857
- * GRUPO #4
- * 
- * PROFESORA: YELMIN PEREZ
- * 
+/*
  * 
  * Recursividad01.java*/
 
-//01. Escribir una funcion con recursión para imprimir
+//01. Escribir una funcion con recursiÃ³n para imprimir
 //los numeros desde n hasta 0. n es un entero positivo
 //que se obtiene como entrada.
 
